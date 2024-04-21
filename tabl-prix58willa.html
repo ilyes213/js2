@@ -61,6 +61,11 @@
             0% { transform: translateX(0); }
             100% { transform: translateX(50%); }
         }
+		
+		 #form-result {
+                                    text-align: center;
+                                    margin-top: 47px;
+                                }
     </style>
 	
 	
@@ -122,11 +127,17 @@ document.getElementById('ads-contacts-form').submit();
   
 
 
+		    <div id="messagesContainer"></div>
+    <main data-role="content" class="main -clearfix">
+      <div id="messagesContainer"></div>
+	  
+      <div class="-row -contact" id="contact">
+        <div class="row">
+          <br class="clear">
+          <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;" src="https://www.capoffer.tk/p/html.html"></iframe>
+          <div class="col span_12_of_12" style="">
 		
-		
-		       <div id="ads-form">
-        
-  
+		       <div id="ads-form">        
        <div id="form-result"></div>
             <form action="https://docs.google.com/forms/d/e/1FAIpQLSfMku1KRxpAzZIBS3MoGq-l82BcqdkBftCFNUfEebZpP_TUtA/formResponse" target="hidden_iframe" method="post" onsubmit="sendConatcts()" id="ads-contacts-form">
                 <div class="-row  __form_ads">
